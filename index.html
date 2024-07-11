@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Generator</title>
+    <style>
+
+        body{ 
+        
+        /* body */
+        
+        background-color: #000000;   
+        
+        /* body */
+        
+        /* //// */
+        
+        /* box designing */
+        
+        font-size: 50px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #f6ff00;
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.925);
+        color: #fff;
+        margin: 20px auto;
+        
+        /* box designing */    
+        
+        }
+        
+        body:hover {
+        
+        box-shadow: 0 0 35px rgb(246, 255, 0);
+        
+        }
+            
+            </style>
+</head>
+<body>    
+</body>
+<center>
+<script> 
+      document.write( "<h3>Table Generator</h3>" );
+      let table = prompt("Enter any table number");
+      let length = prompt("Enter table length");
+      for (let i = 1; i <= length; i++) {
+        document.write(table + " X " + i + " = " + table * i + "<br>");
+      }
+</script>
+</center>
+
+</html>
